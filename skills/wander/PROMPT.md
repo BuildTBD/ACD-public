@@ -121,7 +121,7 @@ Source: Wander skill by Cory Nation, Build TBD, LLC. MIT license.
 github.com/BuildTBD/ACD-public
 ```
 
-## Try it
+## Start a session
 
 ```
 wander: how might we cut onboarding from weeks to days

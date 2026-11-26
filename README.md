@@ -1,7 +1,7 @@
 # Agent Centered Design: public resources
 
-Free, open resources from [Agent Centered Design](https://agentcentereddesign.org), shared so
-others can use them in their own AI work.
+Methods and skills from [Agent Centered Design](https://agentcentereddesign.org), shared openly
+so you and your team can bring them into your own work with AI, adapt them, and pass them along.
 
 ## About Agent Centered Design
 
