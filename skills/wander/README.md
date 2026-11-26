@@ -34,7 +34,7 @@ The skill is this folder, `wander/`.
 - **Gemini:** paste it into a Gem's instructions.
 - **Copilot, or an LLM through its API:** use it as the agent's instructions or the system prompt.
 
-The prompt is a compact, self-contained version of the skill, about 6,000 characters: longer than many short custom-instruction boxes accept, so use one of the places above, or paste it at the start of a single chat. You can also paste the full `SKILL.md`; it is plain Markdown with no dependencies. Where there is no question tool, the agent prints the quiz with lettered choices and you reply like "1B, 2A, 3: my own words". [PROMPT.md](PROMPT.md) lists the commands (`wander:`, `show the board`, `stop wandering`).
+The prompt is a compact, self-contained version of the skill, about 3,200 characters: longer than some short custom-instruction boxes accept, so use one of the places above, or paste it at the start of a single chat. You can also paste the full `SKILL.md`; it is plain Markdown with no dependencies. Where there is no question tool, the agent prints the quiz with lettered choices and you reply like "1B, 2A, 3: my own words". [PROMPT.md](PROMPT.md) lists the commands (`wander:`, `show the board`, `stop wandering`).
 
 Optional: copy `bindings.example.md` to `bindings.md` and name your own tools, folders and projects.
 
