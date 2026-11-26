@@ -29,8 +29,12 @@ time you can see which rules are scoped wrong for invention.
 The skill is this folder, `wander/`.
 
 - **Claude Code:** copy `wander/` into `~/.claude/skills/` (all projects) or `.claude/skills/` in one project, then type `/wander <what you are exploring>`. The quiz uses Claude Code's built-in question tool.
-- **Claude apps:** add it as a custom skill from the skills settings.
-- **ChatGPT, Gemini, Copilot or any other assistant:** paste the prompt in [PROMPT.md](PROMPT.md) into custom instructions, a custom GPT or Gem, a project, or the start of a chat, then start a message with `wander:` and your topic. It is a compact, self-contained version of the skill. You can also paste the full `SKILL.md`; it is plain Markdown with no dependencies. Where there is no question tool, the agent prints the quiz with lettered choices and you reply like "1B, 2A, 3: my own words".
+- **Claude apps:** add it as a custom skill from the skills settings, or paste the prompt in [PROMPT.md](PROMPT.md) into a Project's instructions.
+- **ChatGPT:** paste [PROMPT.md](PROMPT.md)'s prompt into a custom GPT or a Project's instructions.
+- **Gemini:** paste it into a Gem's instructions.
+- **Copilot, or an LLM through its API:** use it as the agent's instructions or the system prompt.
+
+The prompt is a compact, self-contained version of the skill, about 6,000 characters: longer than many short custom-instruction boxes accept, so use one of the places above, or paste it at the start of a single chat. You can also paste the full `SKILL.md`; it is plain Markdown with no dependencies. Where there is no question tool, the agent prints the quiz with lettered choices and you reply like "1B, 2A, 3: my own words". [PROMPT.md](PROMPT.md) lists the commands (`wander:`, `show the board`, `stop wandering`).
 
 Optional: copy `bindings.example.md` to `bindings.md` and name your own tools, folders and projects.
 

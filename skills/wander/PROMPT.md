@@ -1,6 +1,24 @@
 # Wander: copy/paste prompt
 
-A self-contained version of the Wander skill for any AI assistant: ChatGPT, Gemini, Copilot, Claude, or others. Paste everything in the box below into custom instructions, a custom GPT or Gem, a project, or the start of a chat. Then start a message with `wander:` and your topic.
+A self-contained version of the Wander skill for any LLM. Paste everything in the box below wherever your assistant takes standing instructions:
+
+- **Claude apps:** a Project's instructions.
+- **ChatGPT:** a custom GPT or a Project's instructions.
+- **Gemini:** a Gem's instructions.
+- **Copilot, or an LLM through its API:** the agent's instructions or the system prompt.
+
+The prompt is about 6,000 characters, longer than many short custom-instruction boxes accept, so use one of the places above. You can also paste it at the start of a single chat.
+
+## How to work with it
+
+- `wander: <topic>` starts a session. The assistant anchors on your goal, then runs the first round.
+- `wander -radius 2: <topic>` sets how far it roams. Radius 1 stays near your current work, 2 borrows from other fields, 3 questions founding assumptions.
+- `1B, 2A, 3: <your words>` answers the quiz. Your own words are the most valuable input, and they're recorded verbatim.
+- `show the board` displays the lead board: findings, your answers, and parked ideas.
+- Correcting the anchor re-aims the whole session. Do it early.
+- `stop wandering` returns the assistant to its normal mode.
+
+## The prompt
 
 For Claude Code and the Claude apps, the full skill in this folder ([SKILL.md](SKILL.md)) gives more depth, including the lead-board file and the crossing log.
 
