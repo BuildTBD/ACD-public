@@ -30,7 +30,7 @@ The skill is this folder, `wander/`.
 
 - **Claude Code:** copy `wander/` into `~/.claude/skills/` (all projects) or `.claude/skills/` in one project, then type `/wander <what you are exploring>`. The quiz uses Claude Code's built-in question tool.
 - **Claude apps:** add it as a custom skill from the skills settings.
-- **Other AI tools:** paste the contents of `SKILL.md` into your system prompt or custom instructions. It is plain Markdown with no dependencies. Where there is no question tool, the agent prints the quiz with lettered choices and you reply like "1B, 2A, 3: my own words".
+- **ChatGPT, Gemini, Copilot or any other assistant:** paste the prompt in [PROMPT.md](PROMPT.md) into custom instructions, a custom GPT or Gem, a project, or the start of a chat, then start a message with `wander:` and your topic. It is a compact, self-contained version of the skill. You can also paste the full `SKILL.md`; it is plain Markdown with no dependencies. Where there is no question tool, the agent prints the quiz with lettered choices and you reply like "1B, 2A, 3: my own words".
 
 Optional: copy `bindings.example.md` to `bindings.md` and name your own tools, folders and projects.
 
@@ -47,5 +47,6 @@ Radius 1 stays near your current work, 2 borrows from other fields, 3 questions 
 ## Files
 
 - `SKILL.md`: the skill.
+- `PROMPT.md`: a copy/paste version for any AI assistant.
 - `templates/lead-board.md`: the running record of leads, answers and spin-off topics.
 - `bindings.example.md`: optional hookup to your own tools.

@@ -20,7 +20,7 @@ Learn more at [agentcentereddesign.org](https://agentcentereddesign.org).
 
 | Resource | What it is |
 |---|---|
-| [Wander](skills/wander/) | A collaborative research skill that puts an AI agent into invention mode. It explores several directions, shares discoveries as short lead cards, and asks you steering questions as a quick quiz, so each round aligns closer to your mission. |
+| [Wander](skills/wander/) | A collaborative research skill that puts an AI agent into invention mode. It explores several directions, shares discoveries as short lead cards, and asks you steering questions as a quick quiz, so each round aligns closer to your mission. Works in any AI assistant via the [copy/paste prompt](skills/wander/PROMPT.md). |
 
 ## License
 
